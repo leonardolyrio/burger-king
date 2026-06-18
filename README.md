@@ -30,7 +30,7 @@ Uma aplicação multipágina (SPA) inspirada no site do Burger King, focada em c
 
 ```bash
 # 1. Clone o repositório
-git clone [https://github.com/leonardolyrio/burger-king.git](https://github.com/leonardolyrio/burger-king.git)
+git clone https://github.com/leonardolyrio/burger-king.git
 cd burger-king
 
 # 2. Instale as dependências
