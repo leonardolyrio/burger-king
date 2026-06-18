@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import "tailwindcss";
+
+@font-face {
+  font-family: "FlameBold";
+  src: url("./assets/fonts/Flame-Bold.otf");
+}
+
+@font-face {
+  font-family: "FlameRegular";
+  src: url("./assets/fonts/Flame-Regular.otf");
+}
+
+@theme {
+  --color-primary: #d62300;
+  --color-primaryInverted: #de793a;
+  --color-secondary: #f5ebdb;
+  --color-tertiary: #5d403a;
+  --color-neutral: #272727;
+  --color-inverted: #303030;
+  --color-bg: #e4e2e1;
+  --color-title: #a91a00;
+
+  --font-primary: "Inter", sans-serif;
+  --font-secondary: "FlameBold", sans-serif;
+  --font-tertiary: "FlameRegular", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.scroll-hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateY(20px);
+  transition: all 1s ease;
+}
+
+.scroll-show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
+}
